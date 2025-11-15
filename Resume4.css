@@ -21,6 +21,12 @@
     width: 80%;
     margin: 100px auto;
     overflow: hidden;
+    flex-wrap: nowrap;
+
+    
+.container4intro div:first-child {
+    max-width: 65%; 
+}
 }
 .pic img {
     width: 500px;
@@ -32,7 +38,7 @@
 }
 
 .textbimageinfo {
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .aandcinfo {
